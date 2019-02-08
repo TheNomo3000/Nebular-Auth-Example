@@ -1,27 +1,17 @@
-# NebularAuth
+# Nebular Auth Example
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
+Example project with Angular 7 + Nebular and Nebular Auth.
 
-## Development server
+## Tools used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Angular 7+ -> https://github.com/angular/angular
+- Angular Cli -> https://github.com/angular/angular-cli
+- Nebular 3.2.1 -> https://github.com/akveo/nebular
 
-## Code scaffolding
+## Requeriments
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular Cli
+- Node JS
+- APIRest (working) (*)-> https://github.com/cornflourblue/aspnet-core-jwt-authentication-api
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+*Need change user for email on UserService.
